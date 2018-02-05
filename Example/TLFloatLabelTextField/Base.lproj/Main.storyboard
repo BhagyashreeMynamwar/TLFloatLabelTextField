@@ -20,7 +20,38 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fBl-i6-bTD" customClass="TLFloatLabelTextField" customModule="TLFloatLabelTextField">
+                                <rect key="frame" x="30" y="120" width="315" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Qw6-Ac-Zyn"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nSi-vv-bHI" customClass="TLFloatLabelTextView" customModule="TLFloatLabelTextField">
+                                <rect key="frame" x="30" y="220" width="315" height="80"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="riI-i1-HGg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="hint" value="Address"/>
+                                </userDefinedRuntimeAttributes>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fBl-i6-bTD" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="100" id="7xV-hX-8Qi"/>
+                            <constraint firstItem="fBl-i6-bTD" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="30" id="EL4-QZ-p7D"/>
+                            <constraint firstItem="nSi-vv-bHI" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="30" id="J5V-cn-r2Y"/>
+                            <constraint firstAttribute="trailing" secondItem="fBl-i6-bTD" secondAttribute="trailing" constant="30" id="cdl-fs-1Cf"/>
+                            <constraint firstItem="nSi-vv-bHI" firstAttribute="top" secondItem="fBl-i6-bTD" secondAttribute="bottom" constant="40" id="o5T-VK-pZE"/>
+                            <constraint firstAttribute="trailing" secondItem="nSi-vv-bHI" secondAttribute="trailing" constant="30" id="xzr-Yf-8fD"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
