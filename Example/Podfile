@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TLFloatLabelTextField_Example' do
+  pod 'TLFloatLabelTextField', :path => '../'
+
+  target 'TLFloatLabelTextField_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
