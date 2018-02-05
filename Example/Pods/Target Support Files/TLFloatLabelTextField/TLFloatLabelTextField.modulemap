@@ -1,0 +1,6 @@
+framework module TLFloatLabelTextField {
+  umbrella header "TLFloatLabelTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

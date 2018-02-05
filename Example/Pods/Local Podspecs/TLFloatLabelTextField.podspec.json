@@ -1,0 +1,22 @@
+{
+  "name": "TLFloatLabelTextField",
+  "version": "0.1.0",
+  "summary": "A short description of TLFloatLabelTextField.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Myanamwar/TLFloatLabelTextField",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Myanamwar": "bhagyashree14mt@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Myanamwar/TLFloatLabelTextField.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TLFloatLabelTextField/Classes/**/*"
+}

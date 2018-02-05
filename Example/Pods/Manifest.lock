@@ -1,0 +1,16 @@
+PODS:
+  - TLFloatLabelTextField (0.1.0)
+
+DEPENDENCIES:
+  - TLFloatLabelTextField (from `../`)
+
+EXTERNAL SOURCES:
+  TLFloatLabelTextField:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TLFloatLabelTextField: 4f4a6e58bab3eae488c09e4e6da324894890d395
+
+PODFILE CHECKSUM: cc84c88f172e21110488fbfafbb7f119968446b5
+
+COCOAPODS: 1.4.0

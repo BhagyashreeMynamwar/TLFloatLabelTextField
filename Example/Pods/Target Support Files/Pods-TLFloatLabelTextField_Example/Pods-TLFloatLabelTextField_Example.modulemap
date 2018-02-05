@@ -1,0 +1,6 @@
+framework module Pods_TLFloatLabelTextField_Example {
+  umbrella header "Pods-TLFloatLabelTextField_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
