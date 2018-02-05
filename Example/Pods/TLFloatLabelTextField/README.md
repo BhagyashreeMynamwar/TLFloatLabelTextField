@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/TLFloatLabelTextField.svg?style=flat)](http://cocoapods.org/pods/TLFloatLabelTextField)
 [![Platform](https://img.shields.io/cocoapods/p/TLFloatLabelTextField.svg?style=flat)](http://cocoapods.org/pods/TLFloatLabelTextField)
 
+A TLFloatLabelTextField is the Swift implementation. UITextField and UITextView subclasses with placeholders that change into floating labels when the fields are populated with text.
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -12,7 +13,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Requirements
 
 ## Installation
-
+Add 'TLFloatLabelTextField' and 'TLFloatLabelTextView' files to your project and subclass the textfield and textview with FloatTextField and FloatTextView.
+(or)
 TLFloatLabelTextField is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 

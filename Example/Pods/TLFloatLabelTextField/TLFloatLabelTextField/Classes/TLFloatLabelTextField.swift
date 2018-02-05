@@ -1,11 +1,11 @@
 import UIKit
 
-@IBDesignable public class TLFloatLabelTextField: UITextField {
+@IBDesignable class TLFloatLabelTextField: UITextField {
     var _titleLabel = UILabel()
     let bottomLineView = UIView()
     
     // MARK:- Properties
-    override public var accessibilityLabel:String? {
+    override var accessibilityLabel:String? {
         get {
             if let txt = text , txt.isEmpty {
                 return _titleLabel.text
@@ -18,7 +18,7 @@ import UIKit
         }
     }
     
-    override public var placeholder:String? {
+    override var placeholder:String? {
         didSet {
             _titleLabel.text = placeholder
             _titleLabel.sizeToFit()
@@ -29,7 +29,7 @@ import UIKit
             self.attributedPlaceholder = NSAttributedString(string:self.placeholder != nil ? self.placeholder! : "", attributes:[NSAttributedStringKey.foregroundColor: placeHolderColor])
         }
     }
-    override public var attributedPlaceholder:NSAttributedString? {
+    override var attributedPlaceholder:NSAttributedString? {
         didSet {
             _titleLabel.text = attributedPlaceholder?.string
             _titleLabel.sizeToFit()
@@ -72,7 +72,7 @@ import UIKit
     }
     
     // MARK:- Init
-    required public init?(coder aDecoder:NSCoder) {
+    required init?(coder aDecoder:NSCoder) {
         super.init(coder:aDecoder)
         setup()
     }
@@ -83,7 +83,7 @@ import UIKit
     }
     
     // MARK:- Overrides
-    override public func layoutSubviews() {
+    override func layoutSubviews() {
         super.layoutSubviews()
         setTitlePositionForTextAlignment()
         setViewPosition()
@@ -108,7 +108,7 @@ import UIKit
         }
     }
     
-    override public func textRect(forBounds bounds:CGRect) -> CGRect {
+    override func textRect(forBounds bounds:CGRect) -> CGRect {
         var r = super.textRect(forBounds: bounds)
             var top = ceil(_titleLabel.font.lineHeight + hintLabelYPadding)
             top = min(top, maxTopInset())
@@ -116,7 +116,7 @@ import UIKit
         return r.integral
     }
     
-    override public func editingRect(forBounds bounds:CGRect) -> CGRect {
+    override func editingRect(forBounds bounds:CGRect) -> CGRect {
         var r = super.editingRect(forBounds: bounds)
             var top = ceil(_titleLabel.font.lineHeight + hintLabelYPadding)
             top = min(top, maxTopInset())
@@ -124,7 +124,7 @@ import UIKit
         return r.integral
     }
     
-    override public func clearButtonRect(forBounds bounds:CGRect) -> CGRect {
+    override func clearButtonRect(forBounds bounds:CGRect) -> CGRect {
         var r = super.clearButtonRect(forBounds: bounds)
             var top = ceil(_titleLabel.font.lineHeight + hintLabelYPadding)
             top = min(top, maxTopInset())

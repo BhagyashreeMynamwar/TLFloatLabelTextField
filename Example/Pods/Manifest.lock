@@ -1,11 +1,11 @@
 PODS:
-  - TLFloatLabelTextField (0.1.0)
+  - TLFloatLabelTextField (0.1.1)
 
 DEPENDENCIES:
   - TLFloatLabelTextField
 
 SPEC CHECKSUMS:
-  TLFloatLabelTextField: b7500517e48ec7278eedf2ae15e84c314ed62023
+  TLFloatLabelTextField: b2759dba7494c5e3432b1f0d61e25f8ca661546f
 
 PODFILE CHECKSUM: cb4e5405db8be8e3418ae430e26b8e958552a999
 

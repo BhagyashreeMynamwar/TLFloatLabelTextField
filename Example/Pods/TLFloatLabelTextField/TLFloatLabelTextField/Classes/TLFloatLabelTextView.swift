@@ -1,6 +1,6 @@
 import UIKit
 
-@IBDesignable public class TLFloatLabelTextView: UITextView {
+@IBDesignable class TLFloatLabelTextView: UITextView {
     let animationDuration = 0.0
     let placeholderTextColor = UIColor.lightGray.withAlphaComponent(0.65)
     fileprivate var isIB = false
@@ -9,7 +9,7 @@ import UIKit
     fileprivate var initialTopInset:CGFloat = 0
     let bottomLineView = UIView()
     // MARK:- Properties
-    override public var accessibilityLabel:String? {
+    override var accessibilityLabel:String? {
         get {
             if text.isEmpty {
                 return titleLabel.text!
@@ -57,7 +57,7 @@ import UIKit
         didSet {
             if !isFirstResponder {
                 titleLabel.textColor = titleTextColour
-                bottomLineView.backgroundColor = titleTextColour
+                bottomLineView.backgroundColor = titleLabel.textColor
             }
         }
     }
@@ -66,13 +66,13 @@ import UIKit
         didSet {
             if isFirstResponder {
                 titleLabel.textColor = titleActiveTextColour
-                bottomLineView.backgroundColor = titleActiveTextColour
+                bottomLineView.backgroundColor = titleLabel.textColor
             }
         }
     }
     
     // MARK:- Init
-    required public init?(coder aDecoder:NSCoder) {
+    required init?(coder aDecoder:NSCoder) {
         super.init(coder:aDecoder)
         setup()
     }
@@ -92,7 +92,7 @@ import UIKit
     }
     
     // MARK:- Overrides
-    override public func prepareForInterfaceBuilder() {
+    override func prepareForInterfaceBuilder() {
         isIB = true
         setup()
     }
@@ -109,7 +109,7 @@ import UIKit
         }
         
     }
-    override public func layoutSubviews() {
+    override func layoutSubviews() {
         super.layoutSubviews()
         adjustTopTextInset()
         hintLabel.alpha = text.isEmpty ? 1.0 : 0.0
@@ -120,10 +120,10 @@ import UIKit
         let isResp = isFirstResponder
         if isResp  {
             titleLabel.textColor = titleActiveTextColour
-            bottomLineView.backgroundColor = titleActiveTextColour
+            bottomLineView.backgroundColor = titleLabel.textColor
         } else {
             titleLabel.textColor = titleTextColour
-            bottomLineView.backgroundColor = titleTextColour
+            bottomLineView.backgroundColor = titleLabel.textColor
         }
         // Should we show or hide the title label?
         if text.isEmpty {
@@ -157,7 +157,7 @@ import UIKit
         titleLabel.alpha = 0.0
         titleLabel.font = titleFont
         titleLabel.textColor = titleTextColour
-        bottomLineView.backgroundColor = titleTextColour
+        bottomLineView.backgroundColor = titleLabel.textColor
         if !hint.isEmpty {
             titleLabel.text = hint
             titleLabel.sizeToFit()
