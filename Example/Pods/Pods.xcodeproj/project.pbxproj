@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		090B4CEF556B1E7C1D0726B31EB964F1 /* TLFloatLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DC4685A753F52AE63C746BED13C2569 /* TLFloatLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		090B4CEF556B1E7C1D0726B31EB964F1 /* TLFloatLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94C5EE5EF2EF71DC248059BB76306044 /* TLFloatLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F4AF61D1EE388462C6484E7201814F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		25CDEA48441A45FE720D679FCA3A611F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA4A93C85B9404E751D03EA3F366C07 /* ReplaceMe.swift */; };
+		8096A1409FB7518002290AFCA81EA327 /* TLFloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CA2FEE9BECEC9385ED75B987A0210C /* TLFloatLabelTextField.swift */; };
+		92ACE88F8450A7A335B94B1AC917AA43 /* TLFloatLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C27E720D68F5B00F45AFE732995506 /* TLFloatLabelTextField-dummy.m */; };
 		95455BA4634DFF8B1D03B38641CAC4E1 /* Pods-TLFloatLabelTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE7CAB784CAA341DD2EC2D9FD399D266 /* Pods-TLFloatLabelTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		964CD7588642A7D1F17318FFF6081AE4 /* Pods-TLFloatLabelTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E5D914E826157169C6C864CA2564F0 /* Pods-TLFloatLabelTextField_Tests-dummy.m */; };
 		C486501685EC9B7627D16448702D83F5 /* Pods-TLFloatLabelTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 266F359748EF82494C07443512092469 /* Pods-TLFloatLabelTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D122F7A9E84FE596EC4FEDD2511068AC /* Pods-TLFloatLabelTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A51903888F096AA161EB8A759524A7 /* Pods-TLFloatLabelTextField_Example-dummy.m */; };
 		DCAC52282C7185B9BE4B2A5168496696 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		DD669E3715E4C03E2DEE16B020A6730D /* TLFloatLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F866D704D8D89A3F0EC039FA1CB73F5D /* TLFloatLabelTextField-dummy.m */; };
+		E77B7620A1FB91D7D037691E4867DF07 /* TLFloatLabelTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C950B99B61B27BEC7C4733D57D68BC /* TLFloatLabelTextView.swift */; };
 		F77420EA6776FB661AD6AEFE9BB69832 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,31 +31,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01C950B99B61B27BEC7C4733D57D68BC /* TLFloatLabelTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLFloatLabelTextView.swift; path = TLFloatLabelTextField/Classes/TLFloatLabelTextView.swift; sourceTree = "<group>"; };
 		0D79124F932BAB8F5BA49AF9FCD6948A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1639FA065635D18767F1E00562DC6BEC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		19832900D7CB76467A6C20AAC9921B8E /* Pods-TLFloatLabelTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TLFloatLabelTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1BBEC268D1A67BCA72B746BF64DE8E1A /* Pods-TLFloatLabelTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLFloatLabelTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1F9ABE329F8C6F05163BFE478BF352D9 /* TLFloatLabelTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TLFloatLabelTextField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		209C86C8A869C0C1EC15A38124437584 /* Pods-TLFloatLabelTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLFloatLabelTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
 		266F359748EF82494C07443512092469 /* Pods-TLFloatLabelTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TLFloatLabelTextField_Example-umbrella.h"; sourceTree = "<group>"; };
+		26C27E720D68F5B00F45AFE732995506 /* TLFloatLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLFloatLabelTextField-dummy.m"; sourceTree = "<group>"; };
 		2A156DE6304ACBB3C0B6B1100F7438A6 /* Pods-TLFloatLabelTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLFloatLabelTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
-		2AA05A8D704097C00D6242AD359A832D /* TLFloatLabelTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TLFloatLabelTextField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		30BBB0C676A096E932F93CEAB5943890 /* Pods-TLFloatLabelTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TLFloatLabelTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		34E5D914E826157169C6C864CA2564F0 /* Pods-TLFloatLabelTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TLFloatLabelTextField_Tests-dummy.m"; sourceTree = "<group>"; };
+		3884CCF348F27A1912C2943B529A50B6 /* TLFloatLabelTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLFloatLabelTextField.xcconfig; sourceTree = "<group>"; };
 		3981C931138A43A2147C4431A72CDE40 /* TLFloatLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TLFloatLabelTextField.framework; path = TLFloatLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41665E17BA160352D777865C15DE835B /* TLFloatLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TLFloatLabelTextField.modulemap; sourceTree = "<group>"; };
 		497E288E61C10113FB2E741FA243F403 /* Pods-TLFloatLabelTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TLFloatLabelTextField_Example.modulemap"; sourceTree = "<group>"; };
+		49CA2FEE9BECEC9385ED75B987A0210C /* TLFloatLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLFloatLabelTextField.swift; path = TLFloatLabelTextField/Classes/TLFloatLabelTextField.swift; sourceTree = "<group>"; };
 		59B5013C42768ED7C095DCE4E3601EE7 /* Pods-TLFloatLabelTextField_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLFloatLabelTextField_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		5EA94CE64BAF984FC0CE8F278096930B /* Pods_TLFloatLabelTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TLFloatLabelTextField_Tests.framework; path = "Pods-TLFloatLabelTextField_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60F8E805B2733BAA10509A38F69FAE82 /* Pods-TLFloatLabelTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLFloatLabelTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		706B52CB2FF554EE0298DA1E6B75A5DC /* Pods-TLFloatLabelTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLFloatLabelTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		74539EB7ED04079D89BA7B7404CB5E0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		788FB9F9CEB2B70D5A03844F172DA944 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		7DC4685A753F52AE63C746BED13C2569 /* TLFloatLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLFloatLabelTextField-umbrella.h"; sourceTree = "<group>"; };
+		7A98F28C1759EF2774AD57B88274F285 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FA1D7BB6AFAC1FD1133C817314FEFEC /* Pods-TLFloatLabelTextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLFloatLabelTextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		87E1A4D5F5934849042EEDAC4A6EC1C1 /* TLFloatLabelTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLFloatLabelTextField.xcconfig; sourceTree = "<group>"; };
-		91953751FA6257F29069CBFE9BEC8046 /* TLFloatLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TLFloatLabelTextField.modulemap; sourceTree = "<group>"; };
-		92CDAF2F79B28EE5F0243DC044D93AE3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		92D0EB036D3A0C487C23F6670BD55C80 /* TLFloatLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLFloatLabelTextField-prefix.pch"; sourceTree = "<group>"; };
+		857B55DB033FA2D233FE0AA26B7DE487 /* TLFloatLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLFloatLabelTextField-prefix.pch"; sourceTree = "<group>"; };
+		8977B7BE64BDA5983E285D8B8B93EBA4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94C5EE5EF2EF71DC248059BB76306044 /* TLFloatLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLFloatLabelTextField-umbrella.h"; sourceTree = "<group>"; };
 		AA9CB71A849DA83D58B2B84559C6F9CF /* Pods_TLFloatLabelTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TLFloatLabelTextField_Example.framework; path = "Pods-TLFloatLabelTextField_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B913E3F322288C9AF034067EC93D2FEF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE080E367ADCE3BAF8B2B04163E26688 /* Pods-TLFloatLabelTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TLFloatLabelTextField_Tests.modulemap"; sourceTree = "<group>"; };
@@ -63,8 +67,6 @@
 		CE7CAB784CAA341DD2EC2D9FD399D266 /* Pods-TLFloatLabelTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TLFloatLabelTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E7A51903888F096AA161EB8A759524A7 /* Pods-TLFloatLabelTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TLFloatLabelTextField_Example-dummy.m"; sourceTree = "<group>"; };
 		EFA92103A95E8DFCD033FCA2BA5F3E4A /* Pods-TLFloatLabelTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLFloatLabelTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F866D704D8D89A3F0EC039FA1CB73F5D /* TLFloatLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLFloatLabelTextField-dummy.m"; sourceTree = "<group>"; };
-		FAA4A93C85B9404E751D03EA3F366C07 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = TLFloatLabelTextField/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,30 +105,6 @@
 				3981C931138A43A2147C4431A72CDE40 /* TLFloatLabelTextField.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		2C3201234178C4AA586A617076C8C4F8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				74539EB7ED04079D89BA7B7404CB5E0E /* Info.plist */,
-				91953751FA6257F29069CBFE9BEC8046 /* TLFloatLabelTextField.modulemap */,
-				87E1A4D5F5934849042EEDAC4A6EC1C1 /* TLFloatLabelTextField.xcconfig */,
-				F866D704D8D89A3F0EC039FA1CB73F5D /* TLFloatLabelTextField-dummy.m */,
-				92D0EB036D3A0C487C23F6670BD55C80 /* TLFloatLabelTextField-prefix.pch */,
-				7DC4685A753F52AE63C746BED13C2569 /* TLFloatLabelTextField-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TLFloatLabelTextField";
-			sourceTree = "<group>";
-		};
-		4626C85CCAE5E25155F7366F1E3238F2 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				92CDAF2F79B28EE5F0243DC044D93AE3 /* LICENSE */,
-				788FB9F9CEB2B70D5A03844F172DA944 /* README.md */,
-				2AA05A8D704097C00D6242AD359A832D /* TLFloatLabelTextField.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		6346FAC33C02F80EC5140378DB3E2E50 /* Pods-TLFloatLabelTextField_Tests */ = {
@@ -178,19 +156,11 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				93B364AB083D9936471061D127FEA14F /* Development Pods */,
+				CBC2FA4D1D2D2981D7E9237D9F5B05F0 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				26E8E9B0744F4BBCE411B5B2C83E365B /* Products */,
 				68A55A3F418B37F9DC0C6578AEBE10D1 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		93B364AB083D9936471061D127FEA14F /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E6EF3477F7BC44ABCA785962E40D911A /* TLFloatLabelTextField */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -201,6 +171,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CBC2FA4D1D2D2981D7E9237D9F5B05F0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F84BC17A39A10D6F8A25CBC79D2D9D06 /* TLFloatLabelTextField */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,16 +187,41 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E6EF3477F7BC44ABCA785962E40D911A /* TLFloatLabelTextField */ = {
+		D67DD1D9C8E236F913C1CC9147222C46 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FAA4A93C85B9404E751D03EA3F366C07 /* ReplaceMe.swift */,
-				4626C85CCAE5E25155F7366F1E3238F2 /* Pod */,
-				2C3201234178C4AA586A617076C8C4F8 /* Support Files */,
+				7A98F28C1759EF2774AD57B88274F285 /* Info.plist */,
+				41665E17BA160352D777865C15DE835B /* TLFloatLabelTextField.modulemap */,
+				3884CCF348F27A1912C2943B529A50B6 /* TLFloatLabelTextField.xcconfig */,
+				26C27E720D68F5B00F45AFE732995506 /* TLFloatLabelTextField-dummy.m */,
+				857B55DB033FA2D233FE0AA26B7DE487 /* TLFloatLabelTextField-prefix.pch */,
+				94C5EE5EF2EF71DC248059BB76306044 /* TLFloatLabelTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TLFloatLabelTextField";
+			sourceTree = "<group>";
+		};
+		F68260F5F13BC5B07D7ADF229B01037C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8977B7BE64BDA5983E285D8B8B93EBA4 /* LICENSE */,
+				1639FA065635D18767F1E00562DC6BEC /* README.md */,
+				1F9ABE329F8C6F05163BFE478BF352D9 /* TLFloatLabelTextField.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F84BC17A39A10D6F8A25CBC79D2D9D06 /* TLFloatLabelTextField */ = {
+			isa = PBXGroup;
+			children = (
+				49CA2FEE9BECEC9385ED75B987A0210C /* TLFloatLabelTextField.swift */,
+				01C950B99B61B27BEC7C4733D57D68BC /* TLFloatLabelTextView.swift */,
+				F68260F5F13BC5B07D7ADF229B01037C /* Pod */,
+				D67DD1D9C8E236F913C1CC9147222C46 /* Support Files */,
 			);
 			name = TLFloatLabelTextField;
-			path = ../..;
-			sourceTree = "<group>";
+			path = /Users/apple/Desktop/TLFloatLabelTextField;
+			sourceTree = "<absolute>";
 		};
 /* End PBXGroup section */
 
@@ -289,7 +292,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90944D5C34DF4766DC198BF9B65B0ACD /* Build configuration list for PBXNativeTarget "TLFloatLabelTextField" */;
 			buildPhases = (
-				8D937E5D60188098287FEC5852A23E4E /* Sources */,
+				9A2DAB663CAB9FB115AB951A2EEAACFA /* Sources */,
 				FB58ACF7404A7E9D39BE50792135C2D9 /* Frameworks */,
 				377A0F2C09986ADB0A6E2125F9DAC81E /* Headers */,
 			);
@@ -339,12 +342,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D937E5D60188098287FEC5852A23E4E /* Sources */ = {
+		9A2DAB663CAB9FB115AB951A2EEAACFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25CDEA48441A45FE720D679FCA3A611F /* ReplaceMe.swift in Sources */,
-				DD669E3715E4C03E2DEE16B020A6730D /* TLFloatLabelTextField-dummy.m in Sources */,
+				92ACE88F8450A7A335B94B1AC917AA43 /* TLFloatLabelTextField-dummy.m in Sources */,
+				8096A1409FB7518002290AFCA81EA327 /* TLFloatLabelTextField.swift in Sources */,
+				E77B7620A1FB91D7D037691E4867DF07 /* TLFloatLabelTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,7 +501,7 @@
 		};
 		58E9805DC7CD187F8ED67EFD50E26255 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87E1A4D5F5934849042EEDAC4A6EC1C1 /* TLFloatLabelTextField.xcconfig */;
+			baseConfigurationReference = 3884CCF348F27A1912C2943B529A50B6 /* TLFloatLabelTextField.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -650,7 +654,7 @@
 		};
 		C99A6E051396E3740048849D077065CB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87E1A4D5F5934849042EEDAC4A6EC1C1 /* TLFloatLabelTextField.xcconfig */;
+			baseConfigurationReference = 3884CCF348F27A1912C2943B529A50B6 /* TLFloatLabelTextField.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

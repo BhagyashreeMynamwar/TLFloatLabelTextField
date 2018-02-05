@@ -2,15 +2,15 @@ PODS:
   - TLFloatLabelTextField (0.1.0)
 
 DEPENDENCIES:
-  - TLFloatLabelTextField (from `../`)
+  - TLFloatLabelTextField (from `/Users/apple/Desktop/TLFloatLabelTextField`)
 
 EXTERNAL SOURCES:
   TLFloatLabelTextField:
-    :path: ../
+    :path: /Users/apple/Desktop/TLFloatLabelTextField
 
 SPEC CHECKSUMS:
-  TLFloatLabelTextField: 4f4a6e58bab3eae488c09e4e6da324894890d395
+  TLFloatLabelTextField: 6f94d11eb524b0d63fe5f783e982401b7ca494e9
 
-PODFILE CHECKSUM: cc84c88f172e21110488fbfafbb7f119968446b5
+PODFILE CHECKSUM: 9ac61be0be5d4ce84d146f279613e223cbe1543e
 
 COCOAPODS: 1.4.0
