@@ -1,6 +1,6 @@
 import UIKit
 
-@IBDesignable class TLFloatLabelTextView: UITextView {
+@IBDesignable public class TLFloatLabelTextView: UITextView {
     let animationDuration = 0.0
     let placeholderTextColor = UIColor.lightGray.withAlphaComponent(0.65)
     fileprivate var isIB = false
@@ -9,7 +9,7 @@ import UIKit
     fileprivate var initialTopInset:CGFloat = 0
     let bottomLineView = UIView()
     // MARK:- Properties
-    override var accessibilityLabel:String? {
+    override public var accessibilityLabel:String? {
         get {
             if text.isEmpty {
                 return titleLabel.text!
@@ -72,7 +72,7 @@ import UIKit
     }
     
     // MARK:- Init
-    required init?(coder aDecoder:NSCoder) {
+    required public init?(coder aDecoder:NSCoder) {
         super.init(coder:aDecoder)
         setup()
     }
@@ -92,7 +92,7 @@ import UIKit
     }
     
     // MARK:- Overrides
-    override func prepareForInterfaceBuilder() {
+    override public func prepareForInterfaceBuilder() {
         isIB = true
         setup()
     }
@@ -109,7 +109,7 @@ import UIKit
         }
         
     }
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         super.layoutSubviews()
         adjustTopTextInset()
         hintLabel.alpha = text.isEmpty ? 1.0 : 0.0
