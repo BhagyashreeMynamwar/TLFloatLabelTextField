@@ -9,6 +9,8 @@ A TLFloatLabelTextField is the Swift implementation. UITextField and UITextView 
 
 
 ## Example
+[https://giphy.com/gifs/xUOwG3pyWefPj3WYV2]
+
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
