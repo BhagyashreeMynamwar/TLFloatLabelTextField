@@ -36,11 +36,15 @@ pod 'TLFloatLabelTextField'
 Next, switch to the Attributes Inspector tab and set the necessary attributes to configure your text field or text view. The Placeholder attribute (or Hint in the case of a UITextView) defines the actual title which will be used for your field.
 
 Using TLFloatLabelTextField via code works the same as you would do to set up a UITextField or UITextView instance. Simply create an instance of the class, set the necessary properties, and then add the field to your view.
+
+For TextField
+
 ```
 let customTextField = TLFloatLabelTextField(frame:parentView.bounds)
 customTextField.placeholder = "Comments"
 parentView.addSubview(customTextField)
 ```
+For TextView
 
 ```
 let customTextView = TLFloatLabelTextView(frame:parentView.bounds)
