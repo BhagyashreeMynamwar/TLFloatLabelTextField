@@ -7,7 +7,7 @@
 
 A TLFloatLabelTextField is the Swift implementation. UITextField and UITextView subclasses with placeholders that change into floating labels when the fields are populated with text.
 
-![alt text](https://github.com/TekysLabPvtLtd/TLFloatLabelTextField/Example/TLFloatLabelTextField/Images.xcassets/TLFloatTextFieldDemo.imageset/TLFloatTextFieldDemo.gif)
+<img src='TLFloatLabelTextField/Example/TLFloatLabelTextField/Images.xcassets/TLFloatTextFieldDemo.imageset/TLFloatTextFieldDemo.gif'/>
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
