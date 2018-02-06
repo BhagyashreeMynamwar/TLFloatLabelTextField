@@ -18,14 +18,38 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Requirements
 
 ## Installation
-Add 'TLFloatLabelTextField' and 'TLFloatLabelTextView' files to your project and subclass the textfield and textview with FloatTextField and FloatTextView.
+TLFloatLabelTextField is a beautiful, flexible and customizable implementation of the space saving "Float Label Pattern".
+
+You can install the TLFloatLabelField components two ways:
+
+Add 'TLFloatLabelTextField' and 'TLFloatLabelTextView' files to your project and subclass your textfield and textview in Storyboard with TLFloatLabelTextField and TLFloatLabelTextView.
+
 (or)
+
 TLFloatLabelTextField is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'TLFloatLabelTextField'
 ```
+
+Next, switch to the Attributes Inspector tab and set the necessary attributes to configure your text field or text view. The Placeholder attribute (or Hint in the case of a UITextView) defines the actual title which will be used for your field.
+
+Using TLFloatLabelTextField via code works the same as you would do to set up a UITextField or UITextView instance. Simply create an instance of the class, set the necessary properties, and then add the field to your view.
+```
+let customTextField = TLFloatLabelTextField(frame:parentView.bounds)
+customTextField.placeholder = "Comments"
+parentView.addSubview(customTextField)
+```
+
+```
+let customTextView = TLFloatLabelTextView(frame:parentView.bounds)
+customTextView.placeholder = "Comments"
+parentView.addSubview(customTextView)
+```
+
+## Credits
+  This project derives inspiration from JVFloatLabeledTextField project.
 
 ## Author
 
